@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(background2.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding-top: 70px;
+}
+
+.container {
+    position: relative;
+    background-color: #fff;
+    max-width: 300px;
+    margin: 150px auto 100px;
+    padding: 45px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+.container:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: black;
+    border-radius: 8px;
+    color: white;
+    padding: 10px;
+    transition: 500ms;
+    width: 35%;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: gray;
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,.15);
+    color: black;
+}
+
+input[type="text"]:hover,
+input[type="password"]:hover {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: 600ms;
+}
+
+input[type="checkbox"]{
+    cursor: pointer;
+    text-align: center;
+}
+
+header {
+    background-color: #0020C2;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+}
+
+.login-logo{
+    margin: auto;
+    padding-bottom: 15px;
+    display: block;
+    width: 80px;
+    height: 80px;
+}
+
+#eye-icon {
+    width: 20px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    cursor: pointer;
+    position: absolute;
+    right: 45px;
+    top: 60%;
+    transform: translateY(-50%);
+    /* Add any other styles you want for the eye icon */
+}
+
+.logo-text {
+    margin-left: 10px;
+}
+
+footer {
+    background-color: #0020C2;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.footer-right a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.footer-right a:hover, nav ul li a:hover{
+    text-decoration: underline;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.password-container {
+    position: relative;
+}
+
+.password-container input[type="password"] {
+    padding-right: 30px; /* Ensure enough space for the eye icon */
+}
+
+.password-container img#eye-icon {
+    position: absolute;
+    top: 50%;
+    right: 5px; /* Adjust as needed */
+    transform: translateY(-50%);
+    cursor: pointer;
+}

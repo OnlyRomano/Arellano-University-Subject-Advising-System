@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+header {
+    background-color: #0020C2;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #0020C2;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.footer-right a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.footer-right a:hover, nav ul li a:hover{
+    text-decoration: underline;
+}
+
+.logo-text {
+    margin-right: 710px;
+}
+
+.label {
+    background-color: #0020C2;
+    padding: 10px;
+    margin-bottom: 0;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.wel {
+    text-align: center;
+    font-style: italic;
+    margin: 20px;
+}
+
+.card {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+}
+
+.carousel {
+    padding: 5px;
+}
+
+.programs h3{
+    text-align: center;
+    color: navy;
+    font-style: oblique;
+}
+
+.programs p {
+    text-align: center;
+    color: gray;
+}
+
+.programs {
+    padding-top: 70px;
+}
